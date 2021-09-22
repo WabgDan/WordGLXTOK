@@ -1,0 +1,539 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\WordGLXT.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\WordGLXT.ico"
+
+IDI_CHILDICON1          ICON                    "res\\G2 Folder Blue.ico"
+
+IDI_CHILDICON3          ICON                    "res\\FLD302.ICO"
+
+IDI_CHILDICON2          ICON                    "res\\FLD305.ICO"
+
+IDI_ROOTICON            ICON                    "res\\Blue Glass Folders Icon 22.ico"
+
+IDI_CHILDICON4          ICON                    "res\\world图标.ico"
+
+IDI_ICONLOGIN           ICON                    "res\\登录.ico"
+
+IDI_ICONSJKBF           ICON                    "res\\工具栏图标\\备份数据.ico"
+
+IDI_ICONSJKHF           ICON                    "res\\工具栏图标\\数据恢复.ico"
+
+IDI_ICONDWDA            ICON                    "res\\工具栏图标\\单位档案.ico"
+
+IDI_ICONWDLB            ICON                    "res\\工具栏图标\\文档类别.ico"
+
+IDI_ICONAdd             ICON                    "res\\工具栏图标\\添加文档.ico"
+
+IDI_ICONDel             ICON                    "res\\工具栏图标\\删除文档].ico"
+
+IDI_ICONMod             ICON                    "res\\工具栏图标\\修改文档.ico"
+
+IDI_ICONScan            ICON                    "res\\工具栏图标\\浏览文档.ico"
+
+IDI_ICONFileAttri       ICON                    "res\\工具栏图标\\查看属性.ico"
+
+IDI_ICONUser            ICON                    "res\\工具栏图标\\用户管理.ico"
+
+IDI_ICONMIMA            ICON                    "res\\工具栏图标\\口令修改.ico"
+
+IDI_ICONLog             ICON                    "res\\工具栏图标\\日志管理.ico"
+
+IDI_ICONExit            ICON                    "res\\工具栏图标\\退出系统.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG 0, 0, 235, 61
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "WordGLXT 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2006",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_WORDGLXT_DIALOG DIALOGEX 0, 0, 579, 337
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "文档管理系统"
+MENU IDR_MENU1
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_NOTOOLTIPS | TVS_NOSCROLL | WS_TABSTOP,4,43,117,280,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CONTROL         "",IDC_RICHEDIT1,"RICHEDIT",TCS_FOCUSONBUTTONDOWN | TCS_MULTISELECT | WS_BORDER | WS_VSCROLL | WS_TABSTOP,122,43,448,282,WS_EX_ACCEPTFILES | WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+END
+
+IDD_DWDAN DIALOGEX 0, 0, 234, 173
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "单位档案"
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "退出",IDCANCEL,179,141,35,11
+    EDITTEXT        IDC_EDIT1,50,22,115,9,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确认",IDOK,140,141,35,11
+    LTEXT           "单位编号：",IDC_STATIC1,9,23,40,9
+    COMBOBOX        IDC_COMBO2,50,38,60,35,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "单位名称：",IDC_STATIC2,9,40,40,9
+    EDITTEXT        IDC_EDIT3,50,56,115,9,ES_AUTOHSCROLL
+    LTEXT           "联系人：",IDC_STATIC3,9,58,40,9
+    EDITTEXT        IDC_EDIT4,50,72,115,9,ES_AUTOHSCROLL
+    LTEXT           "联系电话：",IDC_STATIC4,9,73,40,9
+    CONTROL         "删除",IDC_RADIO_Del,"Button",BS_AUTORADIOBUTTON,96,134,27,10
+    CONTROL         "添加",IDC_RADIO_ADD,"Button",BS_AUTORADIOBUTTON,59,134,27,10
+    CONTROL         "修改",IDC_RADIO_Modify,"Button",BS_AUTORADIOBUTTON,22,134,27,10
+    GROUPBOX        "操作选项",IDC_STATIC7,8,120,125,43,0,WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    LTEXT           "联系地址：",IDC_STATIC5,9,87,40,9
+    EDITTEXT        IDC_EDIT5,50,86,115,9,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,50,101,115,9,ES_AUTOHSCROLL
+    LTEXT           "备注：",IDC_STATIC6,9,102,40,9
+    CONTROL         "Tab1",IDC_TAB1,"SysTabControl32",WS_TABSTOP,36,7,199,171
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,21,222,151
+END
+
+IDD_WDLB DIALOG 0, 0, 177, 118
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "文档类别"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT1,52,5,30,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT2,52,22,30,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,52,40,115,15,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确认",IDOK,118,65,38,12
+    PUSHBUTTON      "退出",IDCANCEL,118,90,38,12
+    LTEXT           "单位编号：",IDC_STATIC,8,8,42,9
+    LTEXT           "类别编号：",IDC_STATIC,8,26,42,9
+    LTEXT           "文档类别：",IDC_STATIC,8,43,42,9
+    COMBOBOX        IDC_COMBO5,94,5,60,35,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "操作选项",IDC_STATIC,4,58,57,55
+    CONTROL         "修改",IDC_RADIO_Modify,"Button",BS_AUTORADIOBUTTON,11,82,35,12
+    CONTROL         "添加",IDC_RADIO_ADD,"Button",BS_AUTORADIOBUTTON,11,68,29,12
+    CONTROL         "删除",IDC_RADIO_Del,"Button",BS_AUTORADIOBUTTON,11,96,35,12
+END
+
+IDD_YHGL DIALOG 0, 0, 141, 87
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "用户管理"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT1,67,5,60,11,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,67,21,60,11,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,67,37,60,12,ES_PASSWORD | ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO1,67,52,60,35,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "保存",IDOK,14,71,34,11
+    PUSHBUTTON      "删除",IDC_BUTTON1,54,71,34,11
+    PUSHBUTTON      "退出",IDCANCEL,94,71,34,11
+    LTEXT           "用户名：",IDC_STATIC,14,5,49,10
+    LTEXT           "密码：",IDC_STATIC,14,21,49,10
+    LTEXT           "确认密码：",IDC_STATIC,14,37,49,10
+    LTEXT           "级别：",IDC_STATIC,14,53,49,10
+END
+
+IDD_KLXG DIALOG 0, 0, 156, 90
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "口令修改"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT2,66,25,73,9,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,66,40,73,9,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,66,56,73,9,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确认",IDOK,24,71,36,12
+    PUSHBUTTON      "退出",IDCANCEL,95,70,36,12
+    LTEXT           "用户名：",IDC_STATIC,14,9,51,9
+    LTEXT           "旧密码：",IDC_STATIC,14,25,51,9
+    LTEXT           "新密码：",IDC_STATIC,14,41,51,9
+    LTEXT           "确认新密码：",IDC_STATIC,14,57,51,9
+    LTEXT           "Static",IDC_STATICyh,65,7,73,11
+END
+
+IDD_DIALOGIN DIALOG 0, 0, 164, 107
+STYLE DS_SETFONT | WS_POPUP
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT1,101,37,51,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,101,54,51,12,ES_PASSWORD | ES_AUTOHSCROLL
+    PUSHBUTTON      "",IDOK,99,76,22,9,BS_BITMAP
+    PUSHBUTTON      "",IDCANCEL,128,76,22,9,BS_BITMAP
+    PUSHBUTTON      "",IDCLOSE,152,1,9,8,BS_BITMAP
+    CONTROL         IDB_BITMAP_Login,IDC_STATIC,"Static",SS_BITMAP,0,0,164,107
+END
+
+IDD_WDgldlg DIALOGEX 0, 0, 212, 159
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "文档管理"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT7,61,115,108,10,ES_AUTOHSCROLL
+    PUSHBUTTON      "... ...",IDC_WJLJXZ,159,101,22,9
+    LTEXT           "备注：",IDC_STATIC7,10,116,48,9
+    EDITTEXT        IDC_EDIT6,61,100,85,10,ES_AUTOHSCROLL
+    LTEXT           "文档路径：",IDC_STATIC6,10,101,48,9
+    EDITTEXT        IDC_EDIT5,61,85,108,10,ES_AUTOHSCROLL
+    LTEXT           "关键字：",IDC_STATIC5,10,86,48,9
+    EDITTEXT        IDC_EDIT4,61,70,108,10,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "文档名称：",IDC_STATIC4,9,70,48,9
+    COMBOBOX        IDC_COMBO4,61,40,60,35,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO3,61,24,60,35,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "删除",IDC_BUTTON_DelWD,150,19,39,12
+    EDITTEXT        IDC_EDIT3,61,56,108,10,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "文档编号：",IDC_STATIC3,9,56,42,9
+    LTEXT           "文档类别：",IDC_STATIC2,9,41,42,9
+    LTEXT           "单位名称：",IDC_STATIC1,9,26,40,9
+    CONTROL         "Tab1",IDC_TAB1,"SysTabControl32",0x0,178,0,27,158
+    COMBOBOX        IDC_COMBO1,17,18,110,47,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "保存",IDOK,95,138,40,11
+    GROUPBOX        "选择",IDC_STATIC8,21,129,69,22
+    CONTROL         "添加",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,27,140,27,7
+    CONTROL         "修改",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,55,140,28,8
+    PUSHBUTTON      "退出",IDCANCEL,141,138,40,11
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,136,51,69,105
+END
+
+IDD_LookFileAttri DIALOG 0, 0, 265, 79
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "文档属性显示"
+FONT 8, "System"
+BEGIN
+    LTEXT           "修改时间:",IDC_STATIC_MTime,4,46,139,8
+    PUSHBUTTON      "打开...",ID_BNAddFile,221,0,37,13,BS_NOTIFY | BS_FLAT
+    PUSHBUTTON      "取消",IDCANCEL,222,59,36,13,BS_MULTILINE | BS_NOTIFY | BS_FLAT
+    LTEXT           "文件大小:",IDC_STATIC_FSize,4,17,138,8
+    LTEXT           "创建时间:",IDC_STATIC_CTime,4,32,139,8
+    LTEXT           "访问时间:",IDC_STATIC_RTime,4,61,131,8
+    CONTROL         "一般",IDC_Normal,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,144,15,28,10
+    CONTROL         "只读",IDC_ReadOnly,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,190,15,28,10
+    CONTROL         "隐藏",IDC_Hide,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,234,15,28,10
+    CONTROL         "系统",IDC_System,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,144,28,28,10
+    CONTROL         "卷标",IDC_VolumeLabel,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,190,28,28,10
+    CONTROL         "目录",IDC_Catalog,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,234,29,28,10
+    CONTROL         "归档",IDC_Pigeonhole,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,144,47,28,10
+    LTEXT           "C:\\",IDC_STATIC_FilePath,5,3,196,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "FileDescription", "WordGLXT Microsoft 基础类应用程序"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "WordGLXT"
+            VALUE "LegalCopyright", "版权所有 (C) 2006"
+            VALUE "OriginalFilename", "WordGLXT.EXE"
+            VALUE "ProductName", "WordGLXT 应用程序"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 54
+    END
+
+    IDD_WORDGLXT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 572
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 329
+    END
+
+    IDD_DWDAN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 227
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 166
+    END
+
+    IDD_WDLB, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 170
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 111
+    END
+
+    IDD_YHGL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 134
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 80
+    END
+
+    IDD_KLXG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 149
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_DIALOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 157
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 100
+    END
+
+    IDD_WDgldlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 152
+    END
+
+    IDD_LookFileAttri, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 258
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 72
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "系统设置"
+    BEGIN
+        MENUITEM "用户管理",                        ID_MENUYHGL
+        MENUITEM "口令修改",                        ID_MENUMODPWD
+        MENUITEM SEPARATOR
+        MENUITEM "退出系统",                        ID_System_Exit
+    END
+    POPUP "基本信息"
+    BEGIN
+        MENUITEM "单位档案",                        ID_MENUDWDAN
+        MENUITEM SEPARATOR
+        MENUITEM "文档类别",                        ID_MENUWDLB
+    END
+    POPUP "文档管理"
+    BEGIN
+        MENUITEM "添加文档",                        ID_MENUADDWD
+        MENUITEM "修改文档",                        ID_MENUMODWD
+        MENUITEM "删除文档",                        ID_MENUDELWD
+        MENUITEM SEPARATOR
+        MENUITEM "文档浏览",                        ID_MENULIULWD
+        MENUITEM "查看文件属性",                      IDD_MENULookFileAttri
+    END
+    POPUP "数据库管理"
+    BEGIN
+        MENUITEM "数据库备份",                       ID_Menu_DBBackUp
+        MENUITEM "数据库恢复",                       ID_Menu_DBRestore
+        MENUITEM "日志管理",                        ID_MENURZGL
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR1 TOOLBAR 32, 32
+BEGIN
+    BUTTON      ID_Button_DwDA
+    BUTTON      ID_Button_WDLB
+    SEPARATOR
+    BUTTON      ID_Button_Add
+    BUTTON      ID_Button_Modify
+    BUTTON      ID_Button_Del
+    BUTTON      ID_Button_Scan
+    BUTTON      ID_Button_Attri
+    SEPARATOR
+    BUTTON      ID_Button_UserManage
+    BUTTON      ID_Button_mimaModify
+    BUTTON      ID_Button_LogManage
+    SEPARATOR
+    BUTTON      ID_Button_BackUp
+    BUTTON      ID_Button_Restore
+    BUTTON      ID_Button_Exit
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_TOOLBAR1            BITMAP                  "res\\toolbar1.bmp"
+
+IDB_BITMAP_Login        BITMAP                  "res\\普通登录1.bmp"
+
+IDB_BITMAP_QR           BITMAP                  "res\\up01.bmp"
+
+IDB_BITMAP_QX           BITMAP                  "res\\up02.bmp"
+
+IDB_BITMAP_Close        BITMAP                  "res\\关闭按钮变前.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DWDAN AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_WDgldlg AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "关于 WordGLXT(&A)..."
+END
+
+STRINGTABLE
+BEGIN
+    ID_Button_DwDA          "单位档案"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\WordGLXT.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

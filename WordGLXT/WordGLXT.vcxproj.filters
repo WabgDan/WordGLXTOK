@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9824f3a7-9f74-46c7-950c-4920a0f9336a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b24aa4e5-b597-420a-be0f-9b447d24cc63}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{503c68d1-eb73-40fc-a632-500039ea7fc6}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ADOConn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dwdandlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dwxxb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileAttri.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KLxgdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msword9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rizhib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Users.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WDgldlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wdlbiedlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WordGLXT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WordGLXTDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="YHgldlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Zdmlb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Zdxxb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WordGLXT.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ADOConn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dwdandlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dwxxb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileAttri.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KLxgdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="msword9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rizhib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Users.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WDgldlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wdlbiedlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WordGLXT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WordGLXTDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="YHgldlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Zdmlb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Zdxxb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\03.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\71.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\84.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\86.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\aa.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bb.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bg.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Blue Glass Folders Icon 13.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Blue Glass Folders Icon 17.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Blue Glass Folders Icon 2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Blue Glass Folders Icon 22.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\cc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\close.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dd.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ee.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ff.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FLD302.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FLD305.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\G2 Folder Blue.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\gg.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\HH.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\queren.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\quxiao.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\saikin_fol.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\up.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\up01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\up02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\WordGLXT.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\world图标.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\工具栏图标\备份数据.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\标题栏.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\工具栏图标\查看属性.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\查看文件属性.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\工具栏图标\单位档案.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\登录.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\登录界面.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\关闭按钮变前.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\豪华包房.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\工具栏图标\口令修改.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\口令修改.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\普通登录1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\工具栏图标\日志管理.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\删除.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\删除文档.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\工具栏图标\删除文档].ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\数据备份.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\工具栏图标\数据恢复.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\添加.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\工具栏图标\添加文档.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\添加文档.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\退出.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\工具栏图标\退出系统.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\工具栏图标\文档类别.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\修改.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\工具栏图标\修改文档.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\修改文档.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\工具栏图标\用户管理.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\用户管理.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\工具栏图标\浏览文档.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\WordGLXT.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
